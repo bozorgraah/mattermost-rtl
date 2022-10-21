@@ -53,6 +53,7 @@
 #post_textbox, #edit_textbox, #reply_textbox, #searchBox {
     font-family: VazirWOL, 'Open Sans', sans-serif !important;
     unicode-bidi: plaintext;
+    text-align: left;
 }
 
 ul.markdown__list {
