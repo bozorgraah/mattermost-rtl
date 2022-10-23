@@ -53,7 +53,21 @@
 #post_textbox, #edit_textbox, #reply_textbox, #searchBox {
     font-family: VazirWOL, 'Open Sans', sans-serif !important;
     unicode-bidi: plaintext;
+}
+
+.post p, .post-message__text,
+.post-message__text h1,
+.post-message__text h2,
+.post-message__text h3,
+.post-message__text h4,
+.post-message__text h5,
+.post-message__text h6,
+.channel-header__info .channel-header__description,
+.channel-header .heading,
+.post .post__header .col__name .user-popover,
+.post .post__link .theme {
     text-align: left;
+    font-size: 1.5rem;
 }
 
 ul.markdown__list {
